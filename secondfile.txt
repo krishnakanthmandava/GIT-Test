@@ -1,2 +1,3 @@
-print "say  hello-git "
-Print "install httpd"
+sudo yum update -y
+sudo yum install -y httpd
+sudo systemctl start httpd
